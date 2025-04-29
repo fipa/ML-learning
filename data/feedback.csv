@@ -1,0 +1,190 @@
+text,sentiment
+"I love this product, it's amazing!",positive
+"This is the worst experience ever.",negative
+"It's okay, not great but not bad either.",neutral
+"Very happy with the purchase.",positive
+"Completely useless, returning it.",negative
+"Works as expected.",neutral
+"Fantastic service!",positive
+"Really disappointed with the quality.",negative
+"It's alright.",neutral
+"Terrible customer service, won't buy again.",negative
+"Absolutely love it, highly recommend!",positive
+"Not bad, but could be better.",neutral
+"Exceeded my expectations, fantastic!",positive
+"Disappointed, not worth the money.",negative
+"Just average, nothing special.",neutral
+"Thrilled with the results!",positive
+"Poor quality, broke after one use.",negative
+"Decent, but I've seen better.",neutral
+"Highly satisfied with my purchase.",positive
+"Awful experience, never again.",negative
+"Meh, it's okay I guess.",neutral
+"Superb quality and design!",positive
+"Terrible fit, very uncomfortable.",negative
+"Neither good nor bad, just fine.",neutral
+"Outstanding performance, very happy!",positive
+"Regret buying this, total waste.",negative
+"Moderate experience, nothing to rave about.",neutral
+"Love the features, very useful!",positive
+"Product arrived damaged, very upset.",negative
+"Fine for the price, nothing extraordinary.",neutral
+"Impressed with the craftsmanship!",positive
+"Doesn't work as advertised, very disappointed.",negative
+"Neutral feelings about this one.",neutral
+"Great value, would buy again!",positive
+"Terrible smell, can't use it.",negative
+"Not too bad, but not great either.",neutral
+"Absolutely fantastic, worth every penny!",positive
+"Cheaply made, fell apart quickly.",negative
+"Just okay, nothing remarkable.",neutral
+"Delighted with the purchase!",positive
+"Very poor experience, avoid this.",negative
+"Neither impressed nor disappointed.",neutral
+"Top-notch quality, very pleased!",positive
+"Defective item, had to return it.",negative
+"Average product, nothing stands out.",neutral
+"Couldn't be happier with this!",positive
+"Terrible packaging, arrived broken.",negative
+"Mixed feelings, it's alright.",neutral
+"Exceptional product, highly recommend!",positive
+"Not functional, very frustrating.",negative
+"Okay for the price, but not great.",neutral
+"Love it, will buy again!",positive
+"Extremely dissatisfied, waste of money.",negative
+"Neutral experience, nothing memorable.",neutral
+"Fantastic quality, exceeded expectations!",positive
+"Doesn't meet the description, very upset.",negative
+"Just fine, nothing to complain about.",neutral
+"Very happy with the results!",positive
+"Awful product, do not recommend.",negative
+"Neither good nor bad, just okay.",neutral
+"Super impressed, love it!",positive
+"Terrible experience, very disappointed.",negative
+"Not great, but not terrible either.",neutral
+"Highly recommend this product!",positive
+"Completely useless, don't buy it.",negative
+"Neutral opinion, it's alright.",neutral
+"Wonderful experience, very satisfied!",positive
+"Broken on arrival, very unhappy.",negative
+"Just average, nothing to write home about.",neutral
+"Love the design and functionality!",positive
+"Very poor quality, not worth it.",negative
+"Okay product, but could be improved.",neutral
+"Extremely happy with this purchase!",positive
+"Doesn't work, very disappointed.",negative
+"Neutral feelings, it's acceptable.",neutral
+"Fantastic product, will buy again!",positive
+"Terrible quality, avoid at all costs.",negative
+"Not bad, but not great either.",neutral
+"Very pleased with the performance!",positive
+"Awful customer service, very upset.",negative
+"Just okay, nothing special.",neutral
+"Exceeded my expectations, love it!",positive
+"Not worth the price, very disappointed.",negative
+"Neutral experience, nothing exciting.",neutral
+"Highly satisfied, great product!",positive
+"Completely broken, can't use it.",negative
+"Neither good nor bad, just fine.",neutral
+"Superb product, very happy!",positive
+"Terrible experience, won't buy again.",negative
+"Okay for the price, but not amazing.",neutral
+"Absolutely love this, highly recommend!",positive
+"Very cheaply made, not worth it.",negative
+"Neutral opinion, it's decent.",neutral
+"Thrilled with the quality and performance!",positive
+"Doesn't meet expectations, very upset.",negative
+"Just fine, nothing extraordinary.",neutral
+"Love everything about this product!",positive
+"Awful fit, very uncomfortable.",negative
+"Not great, but not terrible either.",neutral
+"Fantastic value, very satisfied!",positive
+"Broken after one use, very disappointed.",negative
+"Neutral feelings, it's okay.",neutral
+"Highly recommend, excellent product!",positive
+"Terrible smell, can't use it.",negative
+"Not bad, but could be better.",neutral
+"Super impressed with the quality!",positive
+"Doesn't work as described, very upset.",negative
+"Just average, nothing remarkable.",neutral
+"Very happy with this purchase!",positive
+"Awful quality, do not recommend.",negative
+"Neither impressed nor disappointed.",neutral
+"Exceptional value, very pleased!",positive
+"Defective on arrival, very unhappy.",negative
+"Okay product, but not great.",neutral
+"Couldn't be happier with this product!",positive
+"Terrible packaging, arrived damaged.",negative
+"Mixed feelings, it's alright.",neutral
+"Love the features and design!",positive
+"Extremely dissatisfied, waste of money.",negative
+"Neutral experience, nothing memorable.",neutral
+"Fantastic craftsmanship, highly recommend!",positive
+"Doesn't meet the description, very upset.",negative
+"Just fine, nothing to complain about.",neutral
+"Very satisfied with the results!",positive
+"Awful product, do not recommend.",negative
+"Neither good nor bad, just okay.",neutral
+"Super impressed, love it!",positive
+"Terrible experience, very disappointed.",negative
+"Not great, but not terrible either.",neutral
+"Highly recommend this product!",positive
+"Completely useless, don't buy it.",negative
+"Neutral opinion, it's alright.",neutral
+"Wonderful experience, very satisfied!",positive
+"Broken on arrival, very unhappy.",negative
+"Just average, nothing to write home about.",neutral
+"Love the design and functionality!",positive
+"Very poor quality, not worth it.",negative
+"Okay product, but could be improved.",neutral
+"Extremely happy with this purchase!",positive
+"Doesn't work, very disappointed.",negative
+"Neutral feelings, it's acceptable.",neutral
+"Fantastic product, will buy again!",positive
+"Terrible quality, avoid at all costs.",negative
+"Not bad, but not great either.",neutral
+"Very pleased with the performance!",positive
+"Awful customer service, very upset.",negative
+"Just okay, nothing special.",neutral
+"Exceeded my expectations, love it!",positive
+"Not worth the price, very disappointed.",negative
+"Neutral experience, nothing exciting.",neutral
+"Highly satisfied, great product!",positive
+"Completely broken, can't use it.",negative
+"Neither good nor bad, just fine.",neutral
+"Superb product, very happy!",positive
+"Terrible experience, won't buy again.",negative
+"Okay for the price, but not amazing.",neutral
+"Absolutely love this, highly recommend!",positive
+"Very cheaply made, not worth it.",negative
+"Neutral opinion, it's decent.",neutral
+"Thrilled with the quality and performance!",positive
+"Doesn't meet expectations, very upset.",negative
+"Just fine, nothing extraordinary.",neutral
+"Love everything about this product!",positive
+"Awful fit, very uncomfortable.",negative
+"Not great, but not terrible either.",neutral
+"Fantastic value, very satisfied!",positive
+"Broken after one use, very disappointed.",negative
+"Neutral feelings, it's okay.",neutral
+"Highly recommend, excellent product!",positive
+"Terrible smell, can't use it.",negative
+"Not bad, but could be better.",neutral
+"Super impressed with the quality!",positive
+"Doesn't work as described, very upset.",negative
+"Just average, nothing remarkable.",neutral
+"Very happy with this purchase!",positive
+"Awful quality, do not recommend.",negative
+"Neither impressed nor disappointed.",neutral
+"Exceptional value, very pleased!",positive
+"Defective on arrival, very unhappy.",negative
+"Okay product, but not great.",neutral
+"Couldn't be happier with this product!",positive
+"Terrible packaging, arrived damaged.",negative
+"Mixed feelings, it's alright.",neutral
+"Love the features and design!",positive
+"Extremely dissatisfied, waste of money.",negative
+"Neutral experience, nothing memorable.",neutral
+"Fantastic craftsmanship, highly recommend!",positive
+"Doesn't meet the description, very upset.",negative
+"Just fine, nothing to complain about.",neutral
