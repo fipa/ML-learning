@@ -1,6 +1,6 @@
 # LLM Learning
 
-This project is dedicated to exploring and learning about Large Language Models (LLMs). It includes experiments, examples, and resources to better understand how LLMs work and how to use them effectively.
+This project is dedicated to exploring and learning about Machine Learning (ML) and Large Language Models (LLMs). It includes experiments, examples, and resources to better understand how ML and LLMs work and how to use them effectively.
 
 ## Purpose
 
@@ -13,8 +13,8 @@ The purpose of this project is to:
 
 1. **Clone the Repository**  
     ```bash
-    git clone https://github.com/your-username/llm-learning.git
-    cd llm-learning
+    git clone https://github.com/fipa/ML-learning.git
+    cd ML-learning
     ```
 
 2. **Configure VirtualEnv and Install Dependencies**  
