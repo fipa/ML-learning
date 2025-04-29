@@ -44,7 +44,6 @@ def split_data(x: pd.Series, y: pd.Series, test_size: float, random_state: int) 
     return x_train, x_test, y_train, y_test
 
 def build_and_train_pipeline(x_train: pd.Series, y_train: pd.Series, transformer: CountVectorizer, estimator: BaseEstimator) -> Pipeline:
-    print(f"\nDefining and training the model pipeline with {type(estimator).__name__}...")
     pipeline = Pipeline([
         ('transformer', transformer),
         ('classifier', estimator)
