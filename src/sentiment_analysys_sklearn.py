@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer, BaseEstimator
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report
@@ -8,7 +9,6 @@ from typing import Tuple, List
 from joblib import Memory
 import os
 
-# Define a cache directory
 CACHE_DIR = "./.cache"
 if not os.path.exists(CACHE_DIR):
     os.makedirs(CACHE_DIR)
@@ -41,11 +41,12 @@ def split_data(x: pd.Series, y: pd.Series, test_size: float = 0.3, random_state:
     print(f"Test set size: {len(x_test)}")
     return x_train, x_test, y_train, y_test
 
-def build_and_train_pipeline(x_train: pd.Series, y_train: pd.Series) -> Pipeline:
+def build_and_train_pipeline(x_train: pd.Series, y_train: pd.Series, transformer: tuple[str, CountVectorizer], estimator: tuple[str, BaseEstimator]) -> Pipeline:
     print("\nDefining and training the model pipeline...")
+    
     pipeline = Pipeline([
-        ('tfidf', TfidfVectorizer(stop_words='english')),
-        ('clf', LogisticRegression(random_state=42, solver='liblinear'))
+        transformer,
+        estimator
     ], memory=memory)
     pipeline.fit(x_train, y_train)
     print("Model training complete.")
@@ -75,9 +76,17 @@ def main():
 
     x, y = load_and_clean_data(data_filepath)
     x_train, x_test, y_train, y_test = split_data(x, y)
-    trained_pipeline = build_and_train_pipeline(x_train, y_train)
-    evaluate_model(trained_pipeline, x_test, y_test)
-    predict_new_data(trained_pipeline, new_feedback_examples)
+
+    tfidf_transformer = ('tfidf', TfidfVectorizer(stop_words='english'))
+    logistic_regression_estimator = ('logistic_regression_classifier', LogisticRegression(random_state=42, solver='liblinear'))
+    multinomial_nb_estimator = ('multinomial_nb_classifier', MultinomialNB())
+
+    for estimator in [logistic_regression_estimator, multinomial_nb_estimator]:
+        print(f"\nUsing estimator: {estimator[0]}")
+        trained_pipeline = build_and_train_pipeline(x_train, y_train, tfidf_transformer, estimator)
+        
+        evaluate_model(trained_pipeline, x_test, y_test)
+        predict_new_data(trained_pipeline, new_feedback_examples)
 
 if __name__ == "__main__":
     main()
